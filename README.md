@@ -1,5 +1,5 @@
-# pypro
+# Modules for Games
+# C#, C++, Python
 practice project
 
-Don't kill me this isn't good
-
+Mostly centered around modules and other OOP practices, please feel free to give criticism.
