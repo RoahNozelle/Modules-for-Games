@@ -1,0 +1,30 @@
+import sys
+import tkinter
+import os
+
+#Window Declarations and properties
+window = tkinter.Tk()
+window.title("GUI Practice")
+window.geometry("300x150")
+window.wm_iconbitmap('favicon.ico')
+#End Window Declarations and properties
+
+#Objects of Window properties
+lbl = tkinter.Label(window, text="Welcome!")
+lblUser = tkinter.Label(window, text="Enter your username:")
+lblPswd = tkinter.Label(window, text="Enter your password:")
+entUser = tkinter.StringVar()
+entPswd = tkinter.StringVar()
+btnCont = tkinter.Button(window, text="Submit")
+##placement of objects
+lbl.pack()
+lblUser.pack()
+tkinter.Entry(window, textvariable=entUser).pack()
+lblPswd.pack()
+tkinter.Entry(window, textvariable=entPswd).pack()
+btnCont.pack()
+##end placement of objects
+
+#End Objects of Window properties
+
+window.mainloop()
